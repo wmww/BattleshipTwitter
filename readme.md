@@ -5,7 +5,7 @@ __You are not required to fully understand these rules in order to play.__ Gamep
 ## Overview
 These are the rules for a turn-based game inspired by Battleship and optimized to be played on Twitter. The game can have many players and is played over a period of hours or days. All players are on a single shared board.
 
-## #bst hashtag
+## `#bst` hashtag
 In the interest of making this as unobnoxious as possible to those not interested, all host tweets will contain `mute #bst to hide BattleshipTwitter`. All tweets relating to the game should also include `#bst` so they get caught by the mute as well.
 
 ## Board
