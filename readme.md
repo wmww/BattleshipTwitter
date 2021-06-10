@@ -1,6 +1,4 @@
-# BattleshipTwitter (bst)
-
-__You are not required to fully understand these rules in order to play.__ Gameplay is not automated and the host will explain things as you go. Feel free to read this whole doc now, or just consult it when needed.
+__You are not required to fully understand these rules in order to play.__ Hosting duties are not automated (so exact syntax is not required). Feel free to read this whole doc now, or just consult it when needed.
 
 ## Overview
 These are the rules for a turn-based game inspired by Battleship and optimized to be played on Twitter. The game can have many players and is played over a period of hours or days. All players are on a single shared board.
@@ -63,7 +61,7 @@ Moves and rotations should be sent as DMs to the host:
 move cruiser at G7 3 up
 ```
 
-If a move results in a collision, affected ships are stopped where they collide and are informed.
+If a move results in a collision, affected ships are stopped where they collide and are informed. Ships are informed of collisions even if they were not moving, however they are not told where the collision occurred.
 
 ## Destroying Ships
 When a ship gets hit, that spot is permanently damaged. Future hits to the same spot register as hits, but don't inflict additional damage (unlike the original game, this can happen because ships move). When all spots on a ship are damaged, the ship is destroyed.
